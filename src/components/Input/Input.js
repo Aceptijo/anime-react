@@ -3,7 +3,7 @@ import "./Input.sass"
 
 
 const Input = () => {
-	const [inputValue, setInputValue] = useState('НАЙТИ АНИМЕ ПО НАЗВАНИЮ')
+	const [inputValue, setInputValue] = useState('')
 	
 	
 	return (
@@ -11,6 +11,7 @@ const Input = () => {
 			className='MyInput'
 			type='text'
 			value={inputValue}
+			placeholder={'НАЙТИ АНИМЕ ПО НАЗВАНИЮ'}
 			onChange={event => setInputValue(event.target.value)}>
 		
 		</input>

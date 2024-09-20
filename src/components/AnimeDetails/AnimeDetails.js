@@ -5,6 +5,7 @@ import AnimeSearch from "../AnimeSearch/AnimeSearch";
 import "./AnimeDetails.sass"
 import AnimeInfo from "../AnimeInfo/AnimeInfo";
 import Statistics from "../Statistics/Statistics";
+import AnimeTrailer from "../AnimeTrailer/AnimeTrailer";
 
 
 const AnimeDetails = () => {
@@ -24,6 +25,7 @@ const AnimeDetails = () => {
 				<AnimeInfo anime={anime}/>
 				<Statistics/>
 			</div>
+			<AnimeTrailer anime={anime}/>
 		</div>
 	);
 };

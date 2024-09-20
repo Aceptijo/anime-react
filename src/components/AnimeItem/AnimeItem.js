@@ -8,7 +8,7 @@ const AnimeItem = ({title, images, members, favorites, id}) => {
 	return (
 		<div className='AnimeItem'>
 			<Link to={`/anime/${id}`} className="AnimeItem_Image">
-				{images && images.webp
+				{images?.webp?.image_url
 					? (<img src={images.webp.image_url} alt=""/>)
 					: (<span>Ошибка при загрузке</span>)}
 			</Link>
