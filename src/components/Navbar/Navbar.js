@@ -1,5 +1,6 @@
 import "./Navbar.sass"
 import Logo from "../Logo/Logo";
+import {Link} from "react-router-dom";
 
 
 const Navbar = () => {
@@ -7,11 +8,11 @@ const Navbar = () => {
 		<div className='App_Navbar'>
 			<Logo/>
 			<div className='Navbar_Links'>
-				<a href="/anime-react/">Главная</a>
-				<a href="/anime-react/anime">Аниме</a>
-				<a href="/anime-react/top">TOП 100</a>
-				<a href="/anime-react/random">Случайное</a>
-				<a href="/anime-react/community">Сообщество</a>
+				<Link to="/">Главная</Link>
+				<Link to="/anime">Аниме</>
+				<Link to="/top">TOП 100</Link>
+				<Link to="/random">Случайное</Link>
+				<Link to="/community">Сообщество</Link>
 			</div>
 		</div>
 	)
