@@ -7,11 +7,11 @@ const Navbar = () => {
 		<div className='App_Navbar'>
 			<Logo/>
 			<div className='Navbar_Links'>
-				<a href="/">Главная</a>
-				<a href="/anime">Аниме</a>
-				<a href="/top">TOП 100</a>
-				<a href="/random">Случайное</a>
-				<a href="/community">Сообщество</a>
+				<a href="/anime-react/">Главная</a>
+				<a href="/anime-react/anime">Аниме</a>
+				<a href="/anime-react/top">TOП 100</a>
+				<a href="/anime-react/random">Случайное</a>
+				<a href="/anime-react/community">Сообщество</a>
 			</div>
 		</div>
 	)

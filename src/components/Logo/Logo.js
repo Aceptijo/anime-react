@@ -4,7 +4,7 @@ import "./Logo.sass"
 
 const Logo = () => {
 	return (
-		<a href='/' className='App_Logo'>
+		<a href='/anime-react/' className='App_Logo'>
 			<svg
 				className='App_Logo-svg'
 				x="0px" y="0px"
