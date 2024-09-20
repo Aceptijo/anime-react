@@ -9,7 +9,7 @@ const Navbar = () => {
 			<Logo/>
 			<div className='Navbar_Links'>
 				<Link to="/">Главная</Link>
-				<Link to="/anime">Аниме</>
+				<Link to="/anime">Аниме</Link>
 				<Link to="/top">TOП 100</Link>
 				<Link to="/random">Случайное</Link>
 				<Link to="/community">Сообщество</Link>
