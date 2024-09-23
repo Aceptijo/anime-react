@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import "./Random.sass"
-import axios from "axios";
 
 
 const Random = () => {
