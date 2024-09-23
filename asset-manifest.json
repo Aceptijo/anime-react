@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anime-react/static/css/main.d9925c78.css",
-    "main.js": "/anime-react/static/js/main.14f55717.js",
+    "main.css": "/anime-react/static/css/main.6c93b877.css",
+    "main.js": "/anime-react/static/js/main.f1e37628.js",
     "reactPlayerYouTube.js": "/anime-react/static/js/reactPlayerYouTube.ba094ad6.chunk.js",
     "reactPlayerSoundCloud.js": "/anime-react/static/js/reactPlayerSoundCloud.644c5460.chunk.js",
     "reactPlayerVimeo.js": "/anime-react/static/js/reactPlayerVimeo.1373ffa0.chunk.js",
@@ -17,8 +17,8 @@
     "reactPlayerFilePlayer.js": "/anime-react/static/js/reactPlayerFilePlayer.e1508fb0.chunk.js",
     "reactPlayerPreview.js": "/anime-react/static/js/reactPlayerPreview.b959ec3a.chunk.js",
     "index.html": "/anime-react/index.html",
-    "main.d9925c78.css.map": "/anime-react/static/css/main.d9925c78.css.map",
-    "main.14f55717.js.map": "/anime-react/static/js/main.14f55717.js.map",
+    "main.6c93b877.css.map": "/anime-react/static/css/main.6c93b877.css.map",
+    "main.f1e37628.js.map": "/anime-react/static/js/main.f1e37628.js.map",
     "reactPlayerYouTube.ba094ad6.chunk.js.map": "/anime-react/static/js/reactPlayerYouTube.ba094ad6.chunk.js.map",
     "reactPlayerSoundCloud.644c5460.chunk.js.map": "/anime-react/static/js/reactPlayerSoundCloud.644c5460.chunk.js.map",
     "reactPlayerVimeo.1373ffa0.chunk.js.map": "/anime-react/static/js/reactPlayerVimeo.1373ffa0.chunk.js.map",
@@ -35,7 +35,7 @@
     "reactPlayerPreview.b959ec3a.chunk.js.map": "/anime-react/static/js/reactPlayerPreview.b959ec3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9925c78.css",
-    "static/js/main.14f55717.js"
+    "static/css/main.6c93b877.css",
+    "static/js/main.f1e37628.js"
   ]
 }
