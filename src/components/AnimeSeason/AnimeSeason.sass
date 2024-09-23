@@ -1,8 +1,42 @@
-.App_AnimeSeason
+.AnimeSlider_Сontainer
+	position: relative
+	width: 100%
+	max-width: 1300px
+	margin: 0 auto
+	overflow: hidden
 	display: flex
-	flex-direction: column
-	min-width: 1300px
-	margin-top: 20px
+	align-items: center
+	&:hover
+		button
+			background-color: #333
+			color: white
+	button
+		position: absolute
+		height: 50px
+		width: 30px
+		background-color: rgba(#333, 0)
+		border: none
+		color: rgba(white, 0)
+		cursor: pointer
+		z-index: 3
+		&:hover
+			background-color: #999999
+			color: white
+
+
+.Slider_Arrow-left
+	left: 0
+
+.Slider_Arrow-right
+	right: 0
+
+.AnimeSlider
+	display: flex
+	transition: transform 0.5s ease
+	overflow-x: auto
+	overflow-y: hidden
+	scroll-behavior: smooth
+	scrollbar-width: none
 
 .AnimeSeason-Header
 	display: flex
@@ -15,6 +49,5 @@
 	border-radius: 6px 6px 0 0
 	color: white
 
-.AnimeSeason-List
-	display: flex
-	min-width: 1300px
+.App_AnimeSeason
+	margin-top: 20px
