@@ -1,18 +1,19 @@
 import React from 'react';
 import "./AnimeSeasonItem.sass"
+import {Link, useParams} from "react-router-dom";
 
 
-const AnimeSeasonItem = ({image, title}) => {
+const AnimeSeasonItem = ({image, title, id}) => {
+	
 	const animeTitle = title.split('').slice(0, 35).join('')
 	
-	console.log(animeTitle)
 	return (
 		<div className="AnimeSeasonItem">
 			{image?.jpg?.image_url ? (
-				<div className='AnimeSeasonItem-content'>
+				<Link to={`/anime/${id}`} className='AnimeSeasonItem-content'>
 					<img src={image.jpg.image_url} alt=""/>
 					<span>{`${animeTitle}...`}</span>
-				</div>
+				</Link>
 			) : (
 				<span>Загрузка</span>
 			)}

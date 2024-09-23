@@ -54,6 +54,7 @@ const AnimeSeason = () => {
 							key={anime.mal_id}
 							image={anime.images}
 							title={anime.title_english}
+							id={anime.mal_id}
 						/>
 					)}
 				</div>
